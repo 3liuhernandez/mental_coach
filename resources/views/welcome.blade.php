@@ -602,7 +602,7 @@
                 <!-- author image area start -->
                 <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-duration="300" data-aos-delay="300">
                     <div class="authorv2__image">
-                        <img class="img-fluid" src="assets/images/achive.png" alt="Author Image" />
+                        <img class="img-fluid" src="{{ asset("images/achive.png") }}" alt="Author Image" />
                         <a href="https://youtu.be/qg0_FinB6EE" class="glightbox3 video-btn">
                             <i class="icofont-play"></i></a>
                         <div class="promo-video">
@@ -1201,7 +1201,8 @@
                     </h2>
                     <a href="#contact" class="smooth button button__primary" data-aos="fade-up" data-aos-duration="300" data-aos-delay="300"><span>Enviame un mensaje</span></a>
                     <div class="ctav3__content__icon">
-                        <i class="icofont-read-book"></i>
+                        {{-- <i class="icofont-read-book"></i> --}}
+                        <i class="icofont-id-card"></i>
                     </div>
                 </div>
             </div>
