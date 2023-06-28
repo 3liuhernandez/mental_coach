@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-duration="300" data-aos-delay="300">
                     <div class="hero__images text-center">
-                        <img style="filter: drop-shadow(0px 8px 7px black);" class="img-fluid" src="{{ asset('images/photo_author.png') }}" alt="" />
+                        <img class="img-fluid" src="{{ asset('images/photo_author.png') }}" alt="" />
                         <div class="hero__images--badge">
                             <span>
                                 <span class="hero__images--badge--text1">W.M.T</span>
@@ -165,7 +165,7 @@
             </div>
             <div class="row gx-5">
                 <div class="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center align-items-center" data-aos="fade-right" data-aos-duration="300" data-aos-delay="300">
-                    <img src="{{ asset('images/hero-2.png') }}" alt="" class="img-fluid d-block" />
+                    <img src="{{ asset('images/image_sesions.webp') }}" alt="" class="img-fluid d-block" />
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-duration="300" data-aos-delay="300">
                     <div class="accordion accordion-flush faqs-accordion mt-4 mt-lg-0" id="accordionFlushExample">
@@ -173,46 +173,14 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                    Sesion 01
+                                    Un Espacio Seguro, Tranquilo y de Autoreflexión.
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <p class="accordion-body text-secondary">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Temporibus ea dolore amet laudantium quibusdam nobis
-                                    labore molestiae odit voluptas velit!
-                                </p>
-                            </div>
-                        </div>
-                        <!-- accordion end -->
-                        <!-- accordion start -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    Sesion 02
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <p class="accordion-body text-secondary">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Temporibus ea dolore amet laudantium quibusdam nobis
-                                    labore molestiae odit voluptas velit!
-                                </p>
-                            </div>
-                        </div>
-                        <!-- accordion end -->
-                        <!-- accordion start -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                    Sesion 03
-                                </button>
-                            </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <p class="accordion-body text-secondary">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Temporibus ea dolore amet laudantium quibusdam nobis
-                                    labore molestiae odit voluptas velit!
+                                    Con nuestras <span style="font-weight:bold;color:#3ab5c2">SESIONES ONLINE</span> conseguirás procesar emocionalmente lo que estás viviendo. Ya sea por lidiar con el estrés o las migrañas, 
+                                    por rebajar la ansiedad o por atar cabos sueltos emocionales, escribir 20 minutos al día en tu diario 
+                                    personal desde el punto de vista emocional te ayudará a ganar perspectiva sobre tu experiencia vital.
                                 </p>
                             </div>
                         </div>
@@ -221,26 +189,60 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    Sesion 04
+                                    Necesitas Calma
                                 </button>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                 <p class="accordion-body text-secondary">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Temporibus ea dolore amet laudantium quibusdam nobis
-                                    labore molestiae odit voluptas velit!
+                                    <span style="font-weight:bold;color:#3ab5c2">W.M.T</span> Es un espacio diseñado para reflexionar, 
+                                    para escribir tus vivencias y tus pensamientos. Usa el tiempo que dedicas en tus esfuerzos para renovarte 
+                                    y respirar profundo. Si incorporas este lapso de tiempo a tus rutinas te ayudará a entrar en estado de calma.
                                 </p>
                             </div>
                         </div>
                         <!-- accordion end -->
                         <!-- accordion start -->
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Tienes que Valorarte
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <p class="accordion-body text-secondary">
+                                    En <span style="font-weight:bold;color:#3ab5c2">W.M.T</span> te ayudamos a atesorar todas las 
+                                    frases de ánimo que creas que te pueden ayudar. Con nuestras sesiones convierte tus pensamientos 
+                                    negativos y pon afirmaciones positivas. Como tips escribir sobre todo lo que haces va a evidenciar 
+                                    todo lo que haces bien.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- accordion end -->
+                        <!-- accordion start -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Disminuye tu estrés
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <p class="accordion-body text-secondary">
+                                    <span style="font-weight:bold;color:#3ab5c2">W.M.T</span> Te va a ayudar a manejar el nivel 
+                                    de ansiedad porque te va a ayudar a aclarar tus ideas durante situaciones difíciles. 
+                                    El uso de nuestras sesiones en todos los ámbitos de tu vida te ayudará a identificar el 
+                                    significado, el contexto y el impacto de los eventos que te afectan.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- accordion end -->
+                        {{-- <!-- accordion start -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
                                     Sesion 05
                                 </button>
                             </h2>
-                            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                                 <p class="accordion-body text-secondary">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Temporibus ea dolore amet laudantium quibusdam nobis
@@ -280,7 +282,7 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- accordion end -->
+                        <!-- accordion end --> --}}
                     </div>
                 </div>
             </div>
@@ -602,8 +604,8 @@
                 <!-- author image area start -->
                 <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-duration="300" data-aos-delay="300">
                     <div class="authorv2__image">
-                        <img class="img-fluid" src="{{ asset("images/achive.png") }}" alt="Author Image" />
-                        <a href="https://youtu.be/qg0_FinB6EE" class="glightbox3 video-btn">
+                        <img class="img-fluid" src="{{ asset("images/about.webp") }}" alt="Author Image" />
+                        <a href="{{ asset("video/inspiration.mp4") }}" class="glightbox3 video-btn">
                             <i class="icofont-play"></i></a>
                         <div class="promo-video">
                             <div class="waves-block">
@@ -618,11 +620,12 @@
                 <!-- author content area start -->
                 <div class="col-lg-6" data-aos="fade-left" data-aos-duration="300" data-aos-delay="300">
                     <p>
-                        Based on wikipedia, Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Optio aspernatur quam in nostrum aliquam
-                        eligendi vel, modi cupiditate numquam officiis dicta minima
-                        placeat nulla impedit voluptatum adipisci beatae. Rerum,
-                        impedit.
+                        Desde el principio <span style="font-weight:bold;color:#3ab5c2">W.M.T</span> nació para ayudar, 
+                        para ser un desestresante que baje los niveles de ansiedad por medio de la reflexión para auto-motivarte
+                        dado segun las investigaciones muestra que la mentalidad juega un papel importante en la 
+                        determinación de los resultados de la vida. Al comprender, adaptar y cambiar su forma de pensar, 
+                        puede mejorar su salud, disminuir su estrés y volverse más resistente a los desafíos que la vida nos 
+                        presenta diariamente.
                     </p>
                     <div class="authorv2__content">
                         <div class="authorv2__list">
@@ -641,7 +644,7 @@
                                 </div>
                                 <div class="col-6 mb-3">
                                     <h4>Email:</h4>
-                                    <p class="mb-0">info@wmt.com</p>
+                                    <p class="mb-0">contacto@coachwmt.com</p>
                                 </div>
                                 <div class="col-6 mb-3">
                                     <h4>Idiomas:</h4>
@@ -860,7 +863,7 @@
                                 <div class="counters__stats-box__number">
                                     <span class="odometer" data-count="9999"></span>+
                                 </div>
-                                <h5>Lectores activos</h5>
+                                <h5>Usuarios activos</h5>
                             </div>
                         </li>
                         <li data-aos="fade-up" data-aos-duration="300" data-aos-delay="300">
@@ -871,7 +874,7 @@
                                 <div class="counters__stats-box__number">
                                     <span class="odometer" data-count="41"></span>k
                                 </div>
-                                <h5>Writing Hours</h5>
+                                <h5>Horas de curso</h5>
                             </div>
                         </li>
                         <li data-aos="fade-up" data-aos-duration="300" data-aos-delay="300">
@@ -882,7 +885,7 @@
                                 <div class="counters__stats-box__number">
                                     <span class="odometer" data-count="992"></span>k
                                 </div>
-                                <h5>Total Sells</h5>
+                                <h5>Ventas totales</h5>
                             </div>
                         </li>
                         <li data-aos="fade-up" data-aos-duration="300" data-aos-delay="300">
@@ -1072,7 +1075,7 @@
                         Ver el vídeo
                     </h3>
                     <h3 data-aos="fade-up" data-aos-duration="300" data-aos-delay="300">
-                        Para ver cómo les encanta a nuestros lectores.
+                        Entrevista de nuestro coach Dr. Dario Ortega
                     </h3>
                     <p data-aos="fade-up" data-aos-duration="300" data-aos-delay="300">
                         ¿Todavía tienes dudas? Consulta la sesiones gratuitas para hacerte una idea.
@@ -1081,8 +1084,9 @@
                 </div>
                 <div class="col-md-6" data-aos="fade-up" data-aos-duration="300" data-aos-delay="300">
                     <div class="ctav4__video-btn">
-                        <a href="https://youtu.be/dkxiTpwm0hs" class="glightbox3 video-btn">
-                            <i class="icofont-play"></i></a>
+                        <a href="{{ asset("video/entrevista.webm") }}" class="glightbox3 video-btn">
+                            <i class="icofont-play"></i>
+                        </a>
                         <div class="promo-video">
                             <div class="waves-block">
                                 <div class="waves wave-1"></div>
@@ -1201,7 +1205,6 @@
                     </h2>
                     <a href="#contact" class="smooth button button__primary" data-aos="fade-up" data-aos-duration="300" data-aos-delay="300"><span>Enviame un mensaje</span></a>
                     <div class="ctav3__content__icon">
-                        {{-- <i class="icofont-read-book"></i> --}}
                         <i class="icofont-id-card"></i>
                     </div>
                 </div>
