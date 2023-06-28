@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="{{ route('welcome')}}">
                 <!-- <h1 class="m-0">WONTED</h1> -->
                 <img src="{{ asset("images/logo.png") }}" class="img-fluid" width="150px" height="200px" alt="WMT" />
             </a>
