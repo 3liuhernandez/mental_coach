@@ -295,15 +295,15 @@ body {
 
 // Circle animations
 .circle {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     position: absolute;
     overflow: hidden;
     opacity: 0.3;
     border-width: 5px;
     border-style: solid;
-    border-color: $color-tertiary;
+    border-color: $color-secondary;
 }
 
 .x1 {
