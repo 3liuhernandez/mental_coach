@@ -5,16 +5,22 @@
         "dev": "vite",
         "build": "vite build",
         "watch:sass": "node-sass resources/sass/main.scss public/lib/css/style.css -w",
-        "compress:css": "node-sass public/lib/css/style.prefix.css public/lib/css/style.css --output-style compressed",
+        "compile:sass": "node-sass resources/sass/main.scss public/lib/css/style.comp.css",
+        "concat:css": "concat -o public/lib/css/style.concat.css public/lib/vendor/icofont/icofont.min.css public/lib/css/style.comp.css",
         "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' public/lib/css/style.concat.css -o public/lib/css/style.prefix.css",
-        "compile:sass": "node-sass resources/sass/main.scss public/lib/css/style.comp.css"
+        "compress:css": "node-sass public/lib/css/style.prefix.css public/lib/css/style.css --output-style compressed",
+        "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
     },
     "devDependencies": {
+        "autoprefixer": "^10.4.14",
         "axios": "^1.1.2",
+        "cjw": "^1.1.3",
+        "concat": "^1.0.3",
         "laravel-vite-plugin": "^0.7.5",
+        "node-sass": "^9.0.0",
+        "npm-run-all": "^4.1.5",
+        "postcss": "^8.4.24",
+        "postcss-cli": "^10.1.0",
         "vite": "^4.0.0"
-    },
-    "dependencies": {
-        "node-sass": "^9.0.0"
     }
 }
