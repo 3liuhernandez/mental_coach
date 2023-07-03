@@ -1,0 +1,83 @@
+.banner-carousel {
+    padding: 0;
+    margin: 0;
+
+    .carousel {
+        padding: 0;
+        .carousel-indicators {
+            .btn-select {
+                border-radius: 50%;
+                margin: 0 0.5rem;
+                width: 20px;
+                background: $color-light;
+            }
+        }
+
+        .carousel-inner {
+            margin: 0;
+            .carousel-item {
+                position: relative;
+                height: 90vh;
+                &::before {
+                    content: " ";
+                    position: absolute;
+                    background-color: rgba(0, 0, 0, 0.401);
+                    width: 100% !important;
+                    height: 100%;
+                }
+                img {
+                    width: 100% !important;
+                    height: 100%;
+                    object-fit: cover !important;
+                    cursor: -webkit-grab;
+                    cursor: -moz-grab;
+                    cursor: -o-grab;
+                    cursor: -ms-grab;
+                    cursor: grab;
+                }
+                .carousel-caption {
+                    h2 {
+                        color: $color-light;
+                    }
+                    p {
+                        color: $color-light;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992PX) {
+    .banner-carousel {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    height: auto !important;
+                    img {
+                        height: auto !important;
+                        object-fit: scale-down;
+                    }
+                    .carousel-caption {
+                        padding: 0;
+                        margin-bottom: 2rem;
+                        h2 {
+                            font-size: 15px;
+                            line-height: 1;
+                        }
+                        p {
+                            font-size: 12px;
+                            line-height: 1;
+                            display: flex;
+                            justify-content: flex-end;
+                        }
+                        a {
+                            padding: 0.1rem 0.2rem;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,10 +1,10 @@
 .hero {
     &__padding {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding: 100px 0;
     }
     &__content {
         z-index: 9;
+
         @include respond(tablet) {
             text-align: center;
         }
@@ -58,7 +58,7 @@
             margin-left: 0;
         }
         img {
-            border-radius: 30px;
+            border-radius: 5px;
         }
         &--badge {
             position: absolute;
@@ -357,6 +357,23 @@
     .btn__secondary {
         padding: 10px 20px;
     }
+
+    @media screen and (max-width: 576px) {
+        &__padding {
+            padding: 50px 0;
+            p {
+                font-size: 14px !important;
+                line-height: inherit;
+            }
+        }
+
+        &__images {
+            img {
+                border-radius: 0;
+            }
+        }
+    }
+
     @media screen and (max-width: 330px) {
         .button {
             width: 100%;
