@@ -1548,7 +1548,8 @@
                 <div class="col-lg-8 col-md-6 col-sm-12 m-25px-b" data-aos="fade-right" data-aos-duration="100"
                     data-aos-delay="100">
                     <div class="contact-form-box">
-                        <form id="contact-form">
+                        <form id="contact-form" action="{{route('email.send')}}" method="post">
+                            @csrf
                             <div class="message col">
                                 <p class="email-loading alert alert-warning">
                                     <img src="assets/images/loading.gif" alt="" />&nbsp;&nbsp;&nbsp;Enviando...

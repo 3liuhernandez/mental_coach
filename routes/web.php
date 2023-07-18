@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
+
+Route::get('email_test', [Mail::class, "mail_test"])->name('email_test');
+Route::post('email/contact', [Mail::class, "send_mail_contact"])->name("email.send");

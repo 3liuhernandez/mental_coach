@@ -18,6 +18,12 @@
  * 15.SMOOTH SCROLL ON BUTTON CLICK
  */
 
+$.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
+});
+
 (function ($) {
     "use strict";
     var PATH = {};
