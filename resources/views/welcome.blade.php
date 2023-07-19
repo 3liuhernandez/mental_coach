@@ -19,8 +19,10 @@
                             <img src="{{ asset('images/events/1.jpg') }}" alt="...">
                             <div class="carousel-caption mb-lg-3 m-0">
                                 <h2>Another example headline.</h2>
-                                <p class="small lh-1 m-0 mx-auto w-75">Some representative placeholder content for the
-                                    second slide of the carousel. </p>
+                                <p class="small lh-1 m-0 mx-auto w-75">
+                                    Some representative placeholder content for the
+                                    second slide of the carousel. 
+                                </p>
                             </div>
                         </div>
                         <!-- caption 2 -->
@@ -28,8 +30,10 @@
                             <img src="{{ asset('images/events/1.jpg') }}" alt="...">
                             <div class="carousel-caption mb-lg-3 text-start m-0">
                                 <h2>Example headline.</h2>
-                                <p class="small lh-1 m-0 w-75 ">Some representative placeholder content for the first slide
-                                    of the carousel.</p>
+                                <p class="small lh-1 m-0 w-75 ">
+                                    Some representative placeholder content for the first slide
+                                    of the carousel.
+                                </p>
                             </div>
                         </div>
                         <!-- caption 3 -->
@@ -37,8 +41,10 @@
                             <img src="{{ asset('images/events/1.jpg') }}" alt="...">
                             <div class="carousel-caption mb-lg-3 text-end d-flex flex-column align-items-end m-0">
                                 <h2>One more for good measure.</h2>
-                                <p class="small lh-1 m-0 w-75 ">Some representative placeholder content for the third slide
-                                    of this carousel.</p>
+                                <p class="small lh-1 m-0 w-75 ">
+                                    Some representative placeholder content for the third slide
+                                    of this carousel.
+                                </p>
                             </div>
                         </div>
                         <!-- caption 4 -->
@@ -46,25 +52,32 @@
                             <img src="{{ asset('images/events/1.jpg') }}" alt="...">
                             <div class="carousel-caption mb-lg-3 text-start m-0">
                                 <h2>Example headline.</h2>
-                                <p class="small lh-1 m-0 w-75 ">Some representative placeholder content for the first slide
-                                    of the carousel.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item" id="item-carusel">
-                            <img src="{{ asset('images/events/1.jpg') }}" alt="...">
-                            <div class="carousel-caption mb-lg-3 text-end d-flex flex-column align-items-end m-0">
-                                <h2>One more for good measure.</h2>
-                                <p class="small lh-1 m-0 w-75 ">Some representative placeholder content for the third slide
-                                    of this carousel.</p>
+                                <p class="small lh-1 m-0 w-75 ">
+                                    Some representative placeholder content for the first slide
+                                    of the carousel.
+                                </p>
                             </div>
                         </div>
                         <!-- caption 5 -->
                         <div class="carousel-item" id="item-carusel">
                             <img src="{{ asset('images/events/1.jpg') }}" alt="...">
+                            <div class="carousel-caption mb-lg-3 text-end d-flex flex-column align-items-end m-0">
+                                <h2>One more for good measure.</h2>
+                                <p class="small lh-1 m-0 w-75 ">
+                                    Some representative placeholder content for the third slide
+                                    of this carousel.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- caption 6 -->
+                        <div class="carousel-item" id="item-carusel">
+                            <img src="{{ asset('images/events/1.jpg') }}" alt="...">
                             <div class="carousel-caption mb-lg-3 m-0">
                                 <h2>Another example headline.</h2>
-                                <p class="small lh-1 m-0 mx-auto w-75 ">Some representative placeholder content for the
-                                    second slide of the carousel.</p>
+                                <p class="small lh-1 m-0 mx-auto w-75 ">
+                                    Some representative placeholder content for the
+                                    second slide of the carousel.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -81,7 +94,7 @@
         </div>
     </section>
 
-    <!-- ========== Hero section start ========== -->
+    {{-- ========== Hero section start ========== --}}
     <section id="hero" class="hero hero__padding overflow-hidden position-relative bg-one">
         <div class="container">
             <div class="row align-items-center">
@@ -133,7 +146,7 @@
         </div>
     </section>
 
-    <!-- ========== Author section start ========== -->
+    {{-- ========== Author section start ========== --}}
     <section id="instructors" class="section-padding authorv3">
         <div class="container">
             <div class="row align-items-center">
@@ -217,7 +230,7 @@
             </div>
         </div>
     </section>
-    <!-- ========== Author v3 section end ========== -->
+    {{-- ========== Author v3 section end ========== --}}
 
     <section id="timeline" class="section-padding bg-one">
         <div class="container">
@@ -458,7 +471,7 @@
         </div>
     </section>
 
-    <!-- ========== Achieve section start ========== -->
+    {{-- ========== Achieve section start ========== --}}
     <section id="benefits" class="achieve section-padding">
         <div class="container">
             <div class="row">
@@ -622,9 +635,9 @@
             </div>
         </div>
     </section>
-    <!-- ========== Achieve section end ========== -->
+    {{-- ========== Achieve section end ========== --}}
 
-    <!-- ========== Sessions section start ========== -->
+    {{-- ========== Sessions section start ========== --}}
     <section id="sessions" class="section-padding bg-one">
         <div class="container">
             <div class="row">
@@ -800,9 +813,9 @@
             </div>
         </div>
     </section>
-    <!-- ========== Chapters section end ========== -->
+    {{-- ========== Chapters section end ========== --}}
 
-    <!-- ========== Chapter preview section start ========== -->
+    {{-- ========== Chapter preview section start ========== --}}
     <section id="preview" class="section-padding chapter-preview">
         <div class="container">
             <div class="row">
@@ -1049,7 +1062,7 @@
     </section>
     <!-- ========== Chapter preview section end ========== -->
 
-    <!-- ========== Events section end ========== -->
+    {{-- ========== Events section end ========== --}}
     <section id="events" class="section-padding event bg-one">
         <div class="container">
             <div class="row">
@@ -1143,9 +1156,9 @@
             </div>
         </div>
     </section>
-    <!-- ========== Events section end ========== -->
+    {{-- ========== Events section end ========== --}}
 
-    <!-- ========== Achievement section start ========== -->
+    {{-- ========== Achievement section start ========== --}}
     <section id="achivements" class="section-padding achievement bg-one">
         <div class="container">
             <div class="row">
@@ -1290,9 +1303,9 @@
             </div>
         </div>
     </section>
-    <!-- ========== Achievement section end ========== -->
+    {{-- ========== Achievement section end ========== --}}
 
-    <!-- ========== Fun facts section start ========== -->
+    {{-- ========== Fun facts section start ========== --}}
     <section class="section-padding counters">
         <div class="container">
             <div class="row">
@@ -1371,9 +1384,9 @@
             </div>
         </div>
     </section>
-    <!-- ========== Fun facts section end ========== -->
+    {{-- ========== Fun facts section end ========== --}}
 
-    <!-- ========== CTA v5 section start ========== -->
+    {{-- ========== CTA v5 section start ========== --}}
     <section class="section-padding ctav5">
         <div class="container">
             <div class="row">
@@ -1401,9 +1414,9 @@
             </div>
         </div>
     </section>
-    <!-- ========== CTA v5 section end ========== -->
+    {{-- ========== CTA v5 section end ========== --}}
 
-    <!-- ========== Testimonial section start ========== -->
+    {{-- ========== Testimonial section start ========== --}}
     <section id="reviews" class="section-padding testimonial testimonialv2 bg-one">
         <div class="container">
             <div class="row">
@@ -1490,9 +1503,9 @@
             </div>
         </div>
     </section>
-    <!-- ========== Testimonial section end ========== -->
+    {{-- ========== Testimonial section end ========== --}}
 
-    <!-- ========== CTA v4 section start ========== -->
+    {{-- ========== CTA v4 section start ========== --}}
     <section class="section-padding ctav4">
         <div class="container">
             <div class="row">
@@ -1526,9 +1539,9 @@
             </div>
         </div>
     </section>
-    <!-- ========== CTA v4 section end ========== -->
+    {{-- ========== CTA v4 section end ========== --}}
 
-    <!-- ========== Contact section start ========== -->
+    {{-- ========== Contact section start ========== --}}
     <section id="contact" class="p-80px-tb bg-white">
         <div class="container">
             <div class="row">
@@ -1623,9 +1636,9 @@
             </div>
         </div>
     </section>
-    <!-- ========== Contact section end ========== -->
+    {{-- ========== Contact section end ========== --}}
 
-    <!-- ========== CTA v3 section start ========== -->
+    {{-- ========== CTA v3 section start ========== --}}
     <section id="ctav3" class="ctav3 bg-one p-80px-t">
         <div class="container bg-one">
             <div class="row">
@@ -1646,5 +1659,5 @@
             </div>
         </div>
     </section>
-    <!-- ========== CTA v3 section end ========== -->
+    {{-- ========== CTA v3 section end ========== --}}
 @endsection
