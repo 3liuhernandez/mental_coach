@@ -1,4 +1,3 @@
-$color_1: #383838;
 $color_2: #7b9d6f;
 $color_3: transparent;
 $color_4: #959595;
@@ -6,7 +5,6 @@ $font-family_1: "Source Sans Pro", sans-serif;
 $font-family_2: "Playfair Display", serif;
 $background-color_1: #f8f8f8;
 $background-color_2: #7b9d6f;
-$border-color_1: #7b9d6f;
 $border-color_2: #dfdfdf;
 
 /* -------------------------------- 
@@ -126,7 +124,7 @@ Main Components
         left: 0;
         top: 49px;
         height: 2px;
-        background: #dfdfdf;
+        background: $color-bar-timeline;
         -webkit-transition: -webkit-transform 0.4s;
         -moz-transition: -moz-transform 0.4s;
         transition: transform 0.4s;
@@ -139,7 +137,7 @@ Main Components
                 text-align: center;
                 font-size: 13px;
                 padding-bottom: 15px;
-                color: $color_1;
+                color: $color-dark;
                 -webkit-transform: translateZ(0);
                 -moz-transform: translateZ(0);
                 -ms-transform: translateZ(0);
@@ -157,10 +155,10 @@ Main Components
                     transform: translateX(-50%);
                     bottom: -5px;
                     height: 14px;
-                    width: 12px;
+                    width: 14px;
                     border-radius: 50%;
                     border: 2px solid #dfdfdf;
-                    background-color: $background-color_1;
+                    background-color: $color-timeline;
                     -webkit-transition: background-color 0.3s, border-color 0.3s;
                     -moz-transition: background-color 0.3s, border-color 0.3s;
                     transition: background-color 0.3s, border-color 0.3s;
@@ -169,13 +167,13 @@ Main Components
             a.selected {
                 pointer-events: none;
                 &::after {
-                    background-color: $background-color_2;
-                    border-color: $border-color_1;
+                    background-color: $color-primary;
+                    border-color: $color-secondary;
                 }
             }
             a.older-event {
                 &::after {
-                    border-color: $border-color_1;
+                    border-color: $color-secondary;
                 }
             }
         }
@@ -187,7 +185,7 @@ Main Components
         top: 0;
         height: 100%;
         width: 100%;
-        background-color: $background-color_2;
+        background-color: $color-primary;
         -webkit-transform: scaleX(0);
         -moz-transform: scaleX(0);
         -ms-transform: scaleX(0);
@@ -310,8 +308,8 @@ Main Components
             a {
                 &:hover {
                     &::after {
-                        background-color: $background-color_2;
-                        border-color: $border-color_1;
+                        background-color: $color-primary;
+                        border-color: $color-secondary;
                     }
                 }
             }
@@ -321,7 +319,7 @@ Main Components
         list-style: none;
         a {
             &:hover {
-                border-color: $border-color_1;
+                border-color: $color-secondary;
             }
         }
         a.inactive {

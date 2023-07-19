@@ -90,9 +90,7 @@
 </head>
 
 <body style="background-color:#0065bf;margin:0;padding:0;-webkit-text-size-adjust:none;text-size-adjust:none">
-    <table border="0" cellpadding="0" cellspacing="0" class="nl-container" role="presentation"
-        style="mso-table-lspace:0;mso-table-rspace:0;background-color:#0065bf;background-image:none;background-position:top left;background-size:auto;background-repeat:no-repeat"
-        width="100%">
+    <table border="0" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#0065bf;background-image:none;background-position:top left;background-size:auto;background-repeat:no-repeat" width="100%">
         <tbody>
             <tr>
                 <td>
