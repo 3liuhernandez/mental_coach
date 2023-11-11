@@ -13,7 +13,7 @@
     },
     "devDependencies": {
         "autoprefixer": "^10.4.14",
-        "axios": "^1.1.2",
+        "axios": "^1.6.0",
         "cjw": "^1.1.3",
         "concat": "^1.0.3",
         "laravel-vite-plugin": "^0.7.5",
